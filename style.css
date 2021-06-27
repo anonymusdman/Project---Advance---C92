@@ -1,0 +1,27 @@
+#b {
+	color: black;
+	font-size: xx-large;
+	margin-left: 800px;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.div1, .div2 {
+	background-color: lightblue;
+	color: black;
+	font-size: x-large;
+	width: 600px;
+	border-width: 2px;
+	border-color: black;
+	border-style: dashed;
+	margin-bottom: 10px;
+	height: 150px;
+}
+center {
+	margin-top: 200px;
+	background-color: black;
+	width: 650px;
+	margin-left: 600px;
+	height: 475px;
+}
+body {
+	background-image: url('calculator.jpeg');
+}

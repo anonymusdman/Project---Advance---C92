@@ -1,0 +1,9 @@
+body {
+    background-image: url('calculator.jpeg');
+}
+.output {
+    background-color: black;
+}
+#player1_name_output, #player2_name_output {
+    font-size: large;
+}

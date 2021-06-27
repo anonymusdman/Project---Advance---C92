@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>hi</title>
+            <meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="gamepage.css">
+        </head>
+        <body>
+            <h4 id="player1_name"></h4><span id="player1_score"></span>
+            <h4 id="player2_name"></h4><span id="player2_score"></span>
+            <div class="container">
+                <center>
+                    <h2 style="color: white;">Math Game</h2>
+                    <h3>Question Turn:</h3><span id="player1_name_output"></span>
+                    <h3>Answer Turn:</h3><span id="player2_name_output"></span>
+                    <br>
+                    <div id="output">
+                        
+                    </div>
+                    <br>
+                    <div>
+                        Number 1
+                    </div>
+                    <br>
+                    <input id="number1" placeholder="number 1 here">
+                    <br>
+                    <br>
+                    <div>
+                        Number 2
+                    </div>
+                    <br>
+                    <input id="number2" placeholder="number 2 here">
+                    <br>
+                    <br>
+                    <button class="btn btn-success" onclick="send()">Send</button>
+                </center>
+            </div>
+            <script src="game_page.js"></script>
+        </body>
+    </html>
